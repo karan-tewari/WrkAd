@@ -1,0 +1,12 @@
+.foodDescContainer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.foodDescContainer img {
+    float: left;
+    width: 100%;
+}

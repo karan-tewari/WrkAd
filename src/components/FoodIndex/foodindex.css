@@ -1,0 +1,64 @@
+.itemList{
+    list-style-type: none;
+    float:left;
+}
+.itemList {
+    float: left;
+    width: 20%;
+    margin: 0 3%;
+}
+
+.cardContainer {
+    float: left;
+    width: 100%;
+}
+
+.cardContainer img {
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.cardContainer h4 {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.cardContainer h5 {
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+}
+
+.cardContainer h6 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-device-width:767px) {
+    .itemList {
+        width: 100%;
+        margin: 25px 0;
+    }
+}

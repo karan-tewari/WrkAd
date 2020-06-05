@@ -1,0 +1,11 @@
+.centerHead{
+    float:left;
+    width:100%;
+    text-align: center;
+}
+.boxContainer{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
